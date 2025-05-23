@@ -2096,6 +2096,17 @@
     - guide
     - sd3-5
 
+- local: s2s_endpoint
+  title: 在 Hugging Face 上部署语音转语音模型
+  author: andito
+  thumbnail: /blog/assets/s2s_endpoint/thumbnail.png
+  date: October 22, 2024
+  tags:
+    - audio
+    - speech-to-speech
+    - inference
+    - inference-endpoints
+
 - local: synthid-text
   title: SynthID Text：在 AI 生成文本中应用不可见水印的新技术
   author: sumedhghaisas
@@ -2142,6 +2153,16 @@
     - datasets
     - guide
 
+- local: from-files-to-chunks
+  title: '从文件到块: 提高 Hugging Face 存储效率'
+  author: jsulz
+  thumbnail: /blog/assets/from-files-to-chunks/thumbnail.png
+  date: November 20, 2024
+  tags:
+    - dedupe
+    - storage
+    - content defined chunking
+
 - local: designing-positional-encoding
   title: 设计位置编码
   author: FL33TW00D-HF
@@ -2161,7 +2182,6 @@
     - policy
     - guide
     - ethics
-
 
 - local: layerskip
   title: 自推测解码实现更快文本生成
@@ -2187,6 +2207,27 @@
     - VLM
     - research
 
+- local: ethics-soc-7
+  title: 人工智能代理已经到来，接下来呢？
+  author: meg
+  thumbnail: /blog/assets/190_ethics-soc-7/thumbnail.png
+  date: January 13, 2025
+  tags:
+    - ethics
+    - agents
+
+- local: run-comfyui-workflows-on-spaces
+  title: 在 Hugging Face Spaces 上使用 Gradio 免费运行 ComfyUI 工作流
+  author: multimodalart
+  thumbnail: /blog/assets/comfyui-to-gradio/cover.png
+  date: January 14, 2024
+  tags:
+    - comfyui
+    - gradio
+    - spaces
+    - zerogpu
+    - serverless
+
 - local: smolervlm
   title: SmolVLM 越变越小 —— 全新 250 M 和 500 M 模型正式发布！
   author: andito
@@ -2199,7 +2240,7 @@
     - on-device
     - smolvlm
     - community
-    
+
 - local: ai-art-newsletter-jan-25
   title: AI艺术工具通讯 - 第1期
   author: linoyts
@@ -2207,3 +2248,28 @@
   date: Jan 31, 2025
   tags:
     - community
+
+- local: smolvlm2
+  title: 'SmolVLM2: 让视频理解能力触手可及'
+  author: orrzohar
+  guest: true
+  thumbnail: /blog/assets/smolvlm2/banner.png
+  date: Feb 20, 2025
+  tags:
+    - vlm
+    - multimodal
+    - video
+    - on-device
+    - llm
+    - nlp
+    - vision
+
+- local: transformers-model-definition
+  title: 'The Transformers Library: standardizing model definitions'
+  author: lysandre
+  thumbnail: /blog/assets/transformers-model-definition/transformers-thumbnail.png
+  date: May 15, 2025
+  tags:
+    - community
+    - announcement
+    - transformers
